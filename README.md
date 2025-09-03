@@ -176,6 +176,12 @@ This project is open source and available under the [MIT License](LICENSE).
 - 💡 **Feature Requests**: Suggest new features or improvements
 - 📧 **Contact**: 21btcse25@suiit.ac.in
 
+## 👨‍💻 Author
+
+**Dibyajyoti Mohanty**  
+📧 Email: dibyajyotimty508@gmail.com  
+GitHub: [@Dibyajyoti03](https://github.com/Dibyajyoti03)
+
 ---
 
 ⭐ **Enjoyed using this calculator? Give it a star!**
