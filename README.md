@@ -115,18 +115,6 @@ Division: 15 ÷ 3 = 5
 - **Operators (+,-,×,÷,(,))**: Light purple background, purple text
 - **Equal (=)**: Light green background, dark text
 
-### Theme Toggle Logic
-
-```javascript
-// Theme switching functionality
-const themeToggleBtn = document.querySelector(".theme-toggler");
-const calculator = document.querySelector(".calculator");
-
-themeToggleBtn.onclick = () => {
-  calculator.classList.toggle("dark");
-  themeToggleBtn.classList.toggle("active");
-  isDark = !isDark;
-};
 ```
 
 ## Browser Compatibility
@@ -145,35 +133,7 @@ themeToggleBtn.onclick = () => {
 4. **Button ID Issue** - The '0' button has `class="btn-operator"` but should probably be `class="btn-number"`
 5. **Equal Button Logic** - Space in condition: `item.id == ' equal'` should be `item.id == 'equal'`
 
-## Quick Fixes
 
-To fix the main issues, update these lines:
-
-**In script.js:**
-
-```javascript
-// Line 25: Fix variable name
-calculator.classList.toggle('dark');
-
-// Line 17: Remove extra space
-} else if (display.innerText == '' && item.id == 'equal'){
-```
-
-**In style.css:**
-
-```css
-/* Line 73: Fix selector name */
-#display::-webkit-scrollbar {
-```
-
-**In index.html:**
-
-```html
-<!-- Line 25: Remove extra semicolon -->
-<td><button class="btn-operator" id="backspace"><</button></td>
-
-<!-- Consider changing 0 button class -->
-<td><button class="btn-number" id="0">0</button></td>
 ```
 
 ## Future Enhancements
